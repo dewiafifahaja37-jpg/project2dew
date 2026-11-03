@@ -1,0 +1,93 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biodata Siswa</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #74ebd5, #9face6);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .container {
+            background: white;
+            width: 400px;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+        }
+
+        h1 {
+            text-align: center;
+            color: #4b4b9b;
+            margin-bottom: 20px;
+        }
+
+        .garis {
+            width: 100px;
+            height: 4px;
+            background: #74b9ff;
+            margin: auto;
+            margin-bottom: 25px;
+            border-radius: 5px;
+        }
+
+        .biodata p {
+            font-size: 16px;
+            margin-bottom: 18px;
+            color: #333;
+        }
+
+        .biodata span {
+            display: inline-block;
+            width: 110px;
+            font-weight: bold;
+            color: #4b4b9b;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 25px;
+            color: #777;
+            font-size: 13px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>BIODATA SISWA</h1>
+
+        <div class="garis"></div>
+
+        <div class="biodata">
+            <p><span>Nama</span> : Dewi</p>
+            <p><span>Alamat</span> : Lampung</p>
+            <p><span>Kelas</span> : X RPL</p>
+            <p><span>Hobi</span> : Membaca dan Menulis</p>
+            <p><span>Cita-cita</span> : Programmer</p>
+        </div>
+
+        <footer>
+            <p>✨ Terus Belajar dan Raih Impianmu! ✨</p>
+        </footer>
+
+    </div>
+
+</body>
+</html>
